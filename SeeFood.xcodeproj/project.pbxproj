@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAB00CEF212AC8350008068C /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AAB00CEE212AC8350008068C /* Inceptionv3.mlmodel */; };
 		AAD251E22122F2590028B6BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD251E12122F2590028B6BE /* AppDelegate.swift */; };
 		AAD251E42122F2590028B6BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD251E32122F2590028B6BE /* ViewController.swift */; };
 		AAD251E72122F25A0028B6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD251E52122F25A0028B6BE /* Main.storyboard */; };
 		AAD251E92122F25B0028B6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD251E82122F25B0028B6BE /* Assets.xcassets */; };
 		AAD251EC2122F25B0028B6BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD251EA2122F25B0028B6BE /* LaunchScreen.storyboard */; };
-		AAD251F42122F3EE0028B6BE /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AAD251F32122F3EE0028B6BE /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAB00CEE212AC8350008068C /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		AAD251DE2122F2590028B6BE /* SeeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD251E12122F2590028B6BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAD251E32122F2590028B6BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		AAD251E82122F25B0028B6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAD251EB2122F25B0028B6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAD251ED2122F25B0028B6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAD251F32122F3EE0028B6BE /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				AAD251E82122F25B0028B6BE /* Assets.xcassets */,
 				AAD251EA2122F25B0028B6BE /* LaunchScreen.storyboard */,
 				AAD251ED2122F25B0028B6BE /* Info.plist */,
-				AAD251F32122F3EE0028B6BE /* Resnet50.mlmodel */,
+				AAB00CEE212AC8350008068C /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAD251E42122F2590028B6BE /* ViewController.swift in Sources */,
-				AAD251F42122F3EE0028B6BE /* Resnet50.mlmodel in Sources */,
+				AAB00CEF212AC8350008068C /* Inceptionv3.mlmodel in Sources */,
 				AAD251E22122F2590028B6BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +296,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.timothyplatt.SeeFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -315,7 +315,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.timothyplatt.SeeFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
